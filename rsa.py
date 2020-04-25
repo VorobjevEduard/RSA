@@ -110,7 +110,7 @@ class GeneratorOfPrimeNumbers:
     
     def setKT(self, k, t):
         '''k - разрядность генерируемого простого числа,
-            t - парметр для оценки того, что k простое'''
+            t - параметр для оценки того, что k простое'''
         if t < 1:
             print("Параметр t задан неверно")
             exit()
@@ -140,7 +140,7 @@ class GeneratorOfPrimeNumbers:
 
 class Keys:
 	'''Публичный ключ частично по формату PKCS8,
-		приватный ключ по формату PKCS12'''
+		приватный ключ частично по формату PKCS12'''
 	
 	__publicKey = []
 	__privateKey = []
